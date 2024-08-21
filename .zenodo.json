@@ -1,0 +1,203 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2024-08-21T21:20:04.327714+00:00",
+  "custom_fields": {},
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "mefrediani/init_fire_perimeter_wrf-fire-v2.0.zip": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:59f57b43c443361c692d2ff40bcac0de",
+        "ext": "zip",
+        "id": "74a4fb06-7d8e-4971-ba58-ed7419389c89",
+        "key": "mefrediani/init_fire_perimeter_wrf-fire-v2.0.zip",
+        "links": {
+          "content": "https://zenodo.org/api/records/13357373/files/mefrediani/init_fire_perimeter_wrf-fire-v2.0.zip/content",
+          "self": "https://zenodo.org/api/records/13357373/files/mefrediani/init_fire_perimeter_wrf-fire-v2.0.zip"
+        },
+        "metadata": null,
+        "mimetype": "application/zip",
+        "size": 9608,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 9608
+  },
+  "id": "13357373",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/13357373/access",
+    "access_grants": "https://zenodo.org/api/records/13357373/access/grants",
+    "access_links": "https://zenodo.org/api/records/13357373/access/links",
+    "access_request": "https://zenodo.org/api/records/13357373/access/request",
+    "access_users": "https://zenodo.org/api/records/13357373/access/users",
+    "archive": "https://zenodo.org/api/records/13357373/files-archive",
+    "archive_media": "https://zenodo.org/api/records/13357373/media-files-archive",
+    "communities": "https://zenodo.org/api/records/13357373/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/13357373/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.13357373",
+    "draft": "https://zenodo.org/api/records/13357373/draft",
+    "files": "https://zenodo.org/api/records/13357373/files",
+    "latest": "https://zenodo.org/api/records/13357373/versions/latest",
+    "latest_html": "https://zenodo.org/records/13357373/latest",
+    "media_files": "https://zenodo.org/api/records/13357373/media-files",
+    "parent": "https://zenodo.org/api/records/13357372",
+    "parent_doi": "https://zenodo.org/doi/10.5281/zenodo.13357372",
+    "parent_html": "https://zenodo.org/records/13357372",
+    "requests": "https://zenodo.org/api/records/13357373/requests",
+    "reserve_doi": "https://zenodo.org/api/records/13357373/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/13357373",
+    "self_doi": "https://zenodo.org/doi/10.5281/zenodo.13357373",
+    "self_html": "https://zenodo.org/records/13357373",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:13357373/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:13357373/sequence/default",
+    "versions": "https://zenodo.org/api/records/13357373/versions"
+  },
+  "media_files": {
+    "count": 0,
+    "enabled": false,
+    "entries": {},
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "@NCAR"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Maria Frediani",
+          "name": "Maria Frediani",
+          "type": "personal"
+        }
+      }
+    ],
+    "description": "<p>This version fixes the calculated distances in the LFN field. In the old version the distances referred to grid interval ratios. The new version uses the grid interval to calculate the distance in meters.</p>",
+    "publication_date": "2024-08-21",
+    "publisher": "Zenodo",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/mefrediani/init_fire_perimeter_wrf-fire/tree/v2.0",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "software",
+          "title": {
+            "de": "Software",
+            "en": "Software"
+          }
+        },
+        "scheme": "url"
+      }
+    ],
+    "resource_type": {
+      "id": "software",
+      "title": {
+        "de": "Software",
+        "en": "Software"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "title": "mefrediani/init_fire_perimeter_wrf-fire: release v2.0",
+    "version": "v2.0"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "1178155"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "13357372",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.13357372",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.13357373",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:13357373",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    },
+    "this_version": {
+      "data_volume": 0.0,
+      "downloads": 0,
+      "unique_downloads": 0,
+      "unique_views": 0,
+      "views": 0
+    }
+  },
+  "status": "published",
+  "updated": "2024-08-21T21:20:04.498562+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}
