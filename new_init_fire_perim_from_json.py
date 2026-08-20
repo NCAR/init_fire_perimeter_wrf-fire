@@ -354,7 +354,7 @@ if __name__ == '__main__':
     # Calculate distance in meters based on ref grid spacing (assumes dx = dy)
     distlfn = rdx * lfn 
 
-    write_wrffile('NFUEL_CAT', nfuel_cat_update, wrffile)
+    # write_wrffile('NFUEL_CAT', nfuel_cat_update, wrffile) # don't need to update fuels
     write_wrffile('LFN_HIST', distlfn, wrffile)
 
     # --------------------------------------------------------
