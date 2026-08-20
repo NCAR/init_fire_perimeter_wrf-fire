@@ -338,9 +338,11 @@ if __name__ == '__main__':
     # calculates the distance between each external gridpont and the perimeter
     lfn1 = [ndimage.distance_transform_edt(np.where(ii, 0, 1)) for ii in per2d]
 
+    # We don't actually need to change the fuels inside the perimeter bc fire can only grow, 
+    # the level set method doesn't allow it to retreat. 
     # Sets fuel category to zero inside the perimeter
     # (ideally, we should set fueld load to zero, but it is not a variable in the wrfinput)
-    nfuel_cat_update = np.squeeze(np.array([np.where(ii, 14, nfuel_cat) for ii in per2d]))
+    # nfuel_cat_update = np.squeeze(np.array([np.where(ii, 14, nfuel_cat) for ii in per2d]))
 
     # Set distances inside the perimeter to a negative sign 
     llin= 0 - np.min(np.array(lfn0), axis=0)
